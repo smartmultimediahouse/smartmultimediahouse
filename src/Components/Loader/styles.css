@@ -1,0 +1,21 @@
+.loader-inner-div {
+    position: absolute;
+    width: 77.3vw;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin: auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    margin: auto;
+    z-index: 100;
+}
+.loader-inner-div .cmTUQi {
+    margin: auto;
+}
+@media screen and (max-width: 500px) {
+    .loader-inner-div {
+        width: 100%;
+    }
+}

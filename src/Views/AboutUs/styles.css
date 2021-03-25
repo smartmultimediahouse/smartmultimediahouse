@@ -1,0 +1,17 @@
+.styles-01{
+    margin-top: 5vh; font-weight: 400;
+}
+.styles-02{
+    margin-top: 5vh; font-weight: 400;
+}
+.input-01{
+    border-left: 0px;
+}
+.styles-03{
+    border-left: 0px; height: 15vh;
+}
+.form-control:focus{
+    outline: none;
+    box-shadow:none;
+    border: 1px solid #ced4da;
+}

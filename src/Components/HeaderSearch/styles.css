@@ -1,0 +1,96 @@
+.header-main-02 {
+    height: 3.25rem;
+    /* width: 100vw; */
+    flex-direction: row;
+    /* position: fixed; */
+}
+.header-inner-div-02 {
+    width: 77.3vw;
+    height: 3.25rem;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    margin: auto;
+}
+.search-02 {
+    font-size: 17px;
+    border: 1px solid lightgray;
+    height: 2.8rem;
+    background: #fff;
+    border-radius: 0px;
+}
+.search-02:focus{
+    outline-width: 0px;
+    border-color:none;
+    outline: 0;
+    box-shadow: none;
+}
+.search-btn{
+    padding: 8px;
+    font-size: 17px;
+    border: 1px solid lightgray;
+    height: 2.8rem;
+    width: 2.8rem !important;
+    background: #fff;
+}
+.search-btn:focus{
+    outline-width: 0px;
+}
+.search-icon{
+    height: 100%;
+    width: 100%;
+}
+
+.header-inner-div-02 .form-group,
+.header-inner-div-02 .form-group .input-group,
+.header-inner-div-02 .form-group .input-group .search-input,
+.header-inner-div-02 .form-group .input-group .search-input div {
+    width: 100%;
+}
+.header-inner-div-02 .form-group .input-group .search-input div .rbt-loader.spinner-border.spinner-border-sm{
+    width: 16px;
+}
+.header-inner-div-02 .form-group .input-group .search-input div input.rbt-input-main.form-control.rbt-input{
+    height: 100%;
+    border: 0;
+}
+
+.search-description{
+    max-width: 100%;
+    white-space: normal;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+
+@media screen and (max-width: 1040px) {
+    .header-main-02 {
+        height: 3rem;
+    }
+    .header-inner-div-02 {
+        height: 3rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .header-main-02 {
+        height: 2.7rem;
+    }
+    .header-inner-div-02 {
+        height: 2.7rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header-main-02 {
+        height: 2.4rem;
+    }
+    .header-inner-div-02 {
+        height: 2.4rem;
+        width: 98%;
+    }
+}

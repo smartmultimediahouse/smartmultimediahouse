@@ -1,0 +1,99 @@
+.sub-footer-main {
+    height: 5.5rem;
+    width: 77.4vw;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0px;
+    background-color: #6b440d;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.sub-footer-inner-div {
+    width: 77.3vw;
+    height: 3.5rem;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    position:relative;
+    border-top: 4px solid #d3d3d3;
+}
+.sub-footer-inner-div-01 {
+    height: 3.5rem;
+    overflow:auto;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.sub-footer-inner-div-01::-webkit-scrollbar {
+    display: none;
+}
+.sub-footer-inner-div-01 .h5-div {
+    flex-wrap: nowrap;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 0%;
+    display: flex;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+.sub-footer-inner-div-01 .h5-div .h5 {
+    padding: 0%;
+    margin: 0%;
+    font-size: 14px;
+}
+.footer-icons-div{
+    display: block;
+}
+.footer-link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    width: max-content;
+}
+.footer-link:hover{
+    text-decoration: none;
+    color: #333;
+}
+@media screen and (max-width: 1000px) {
+    .sub-footer-inner-div-01 {
+        width: 63vw;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .sub-footer-inner-div-01 {
+        width: 56vw;
+    }
+}
+@media screen and (max-width: 600px) {
+    .sub-footer-inner-div-01 {
+        width: 53vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .footer-icons-div {
+        display: none;
+    }
+    .sub-footer-inner-div-01 {
+        width: max-content;
+        height: fit-content;
+    }
+    .sub-footer-inner-div {
+        width: 98%;
+        height: 2.5rem;
+    }
+    .sub-footer-inner-div-01 .h5-div .h5 {
+        font-size: 12px;
+    }
+    .sub-footer-main {
+        height: 3.8rem;
+        width: 100vw;
+    }  
+    .sub-footer-main div.col.col-auto {
+        font-size: 12px;
+    }      
+    
+}

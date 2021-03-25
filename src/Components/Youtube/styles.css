@@ -1,0 +1,12 @@
+.youtube-player-div-main {
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+}
+.react-player{
+    object-fit: contain;
+}
+.video-iframe-youtube{
+    width:100%;
+    height:100%;
+}

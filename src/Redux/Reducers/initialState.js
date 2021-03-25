@@ -1,0 +1,15 @@
+export const initialState = {
+  isLoggedIn: false,
+  isLoader: false,
+  authModal: false,
+  userData:{},
+  category:[],
+  categoryDetails:{},
+  communities:[],
+  communitiesComments:[],
+  cartList:[],
+  notify:{},
+  productsList:[],
+  partnersList:[],
+  cartTotalAmount:0,
+};

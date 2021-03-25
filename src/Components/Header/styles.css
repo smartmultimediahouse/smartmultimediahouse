@@ -1,0 +1,87 @@
+.header-main {
+    height: 3.32rem;
+    background-color:#4f310b;
+    width: 100vw;
+    flex-direction: row;
+}
+.header-inner-div {
+    width: 77.3vw;
+    height: 2.22rem;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.mail-address-a{
+
+    text-decoration: none;
+    color: #fff;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+}
+.mail-address-a:hover{
+    text-decoration: none;
+    color: #fff;
+    flex-direction: row;
+}
+.mail-address{
+    margin: 0px;
+    margin-left: 0.3rem;
+}
+.right-side-row1 a{
+margin-left: 45px;
+color: #daca98;
+font-size: 14px;
+}
+.right-side-row{
+    align-items: center;
+    justify-content: space-between;
+}
+.right-side-row a{
+    margin-right: 5px;
+}
+.left-side-row a, span{
+    margin-left: 10px;
+    text-align: left;
+    color: #daca98;
+}
+
+.header-inner-div button {
+    
+    background-color: transparent;
+    border: none;
+}
+.header-inner-div button:focus {
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+.header-inner-div button:active {
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+.profile-icon-btn img{
+    height: 18px;
+    width: 28px;
+    border-radius: 10%;
+    border: 1px solid #d3d3d3;
+}
+.profile-icon-btn-header{
+    display: block !important;
+}
+@media screen and (max-width: 500px) {
+    .header-main {
+        display: none;
+    }
+    .header-inner-div{
+        width: 100%;
+    }
+
+    .profile-icon-btn-header{
+        display: none !important;
+    }
+}

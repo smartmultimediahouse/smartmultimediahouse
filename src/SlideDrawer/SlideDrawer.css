@@ -1,0 +1,55 @@
+html { 
+   height: 100% 
+}
+body { 
+   margin: 0; 
+   padding: 0; 
+   height: 100% ;
+}
+.side-drawer {
+   height: 100%;
+   width: 19rem;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 200;
+   transform: translateX(-100%);
+   transition: transform 0.3s ease-out;
+   overflow: hidden;
+   overflow-y: visible;
+   background-color: #fff;
+}
+.side-drawer.open {
+   transform: translateX(0);
+}
+
+.close-btn-div{
+    position: absolute;
+    right: 1.4rem;
+    top: 1.5rem;
+}
+.close-btn{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    background-color: transparent;
+}
+.drawer-logo{
+   width: 60%;
+   align-self: center;
+   margin-left: 2rem;
+   margin-top: 2rem;
+}
+
+#mobile-nav ul li {
+   position: relative;
+}
+
+#mobile-nav ul {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+   margin-left: 2rem;
+   margin-top: 2rem;
+   margin-bottom: 1rem;
+}

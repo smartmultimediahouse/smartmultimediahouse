@@ -1,0 +1,127 @@
+.live-player-div-main {
+    flex-direction: row;
+}
+.live-player-inner-div {
+    width: 77.3vw;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    margin: auto;
+}
+.live-player-inner-div img {
+    width: 100%;
+    height: inherit;
+}
+.live-player{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.video-js button:focus {
+    outline: none;
+}
+.video-js .vjs-big-play-button {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    border-radius: 300px;
+    height: 5rem;
+    width: 5rem;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #4f310b;
+}
+.video-js .vjs-big-play-button:hover {
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #4f310b;
+}
+.video-js .vjs-big-play-button:focus {
+    outline: none;
+    border: 1px solid #4f310b;
+}
+.video-js .vjs-big-play-button{
+    line-height: 2.5em;
+    color: #4f310b;
+}
+.video-js .vjs-tech {
+    position: unset !important;
+}
+.video-js .vjs-big-play-button {
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 1340px) {
+    .live-player{
+        height: 26rem;
+    }
+    .live-player-div-main {
+        height: 26rem;
+    }
+    .live-player-inner-div {
+        height: 26rem;
+    }
+}
+@media screen and (max-width: 1140px) {
+    .live-player{
+        height: 24rem;
+    }
+    .live-player-div-main {
+        height: 24rem;
+    }
+    .live-player-inner-div {
+        height: 24rem;
+    }
+}
+@media screen and (max-width: 940px) {
+    .live-player{
+        height: 20rem;
+    }
+    .live-player-div-main {
+        height: 12rem;
+    }
+    .live-player-inner-div {
+        height: 12rem;
+    }
+}
+@media screen and (max-width: 640px) {
+    .live-player{
+        height: 16rem;
+    }
+    .live-player-div-main {
+        height: 16rem;
+    }
+    .live-player-inner-div {
+        height: 16rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    .live-player-div-main {
+        margin-top: 0.6rem;
+    }
+    .live-player-inner-div {
+        width: 98%;
+    }
+    .live-player-div-main {
+        height: 8rem;
+    }
+    .live-player-inner-div {
+        height: 8rem;
+    }
+
+    .video-js .vjs-big-play-button {
+        height: 4rem;
+        width: 4rem;
+    }
+    .video-js .vjs-big-play-button{
+        line-height: 2em;
+    }
+
+    .video-player-live{
+        height: 16rem
+    }
+}

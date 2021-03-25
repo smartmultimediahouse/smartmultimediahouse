@@ -1,0 +1,114 @@
+.show-body{
+    padding: 0%;
+    margin: 0%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.show-body .card-btn{
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+    color: #333333;
+}
+.show-body .card-btn:focus{
+    border: none;
+    outline: none;
+    text-decoration: none;
+    color: #333333;
+}
+.show-card-title-row {
+    align-items: center;
+    margin: auto;
+    margin-top: 1rem;
+}
+.green-dot {
+    height: 1.8rem;
+    width: 0.7rem;
+    background-color: #4f310b;
+}
+.show-h5-tag {
+    font-size: 22px;
+    font-weight: bold;
+    color: #4f310b;
+    margin-bottom: 0px;
+    margin-left: 0.5rem;
+}
+.card-detail-div{
+    padding: 0px;
+    margin-top: 0.5rem;
+}
+.card-detail-div .card-img {
+    width: 14rem;
+    height: 8rem;
+}
+.card-detail-div .descriptions {
+    flex: 1;
+    padding-left: 1rem;
+    position: relative;
+}
+.descriptions p {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+}
+.descriptions h6 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+}
+@media screen and (max-width: 1140px) {
+    .card-detail-div .card-img {
+        width: 12rem;
+        height: 6rem;
+    }
+    .descriptions p {
+        font-size: 12px;
+        -webkit-line-clamp: 2;
+    }
+    .descriptions h6 {
+        font-size: 14px;
+        -webkit-line-clamp: 1;
+    }
+}
+@media screen and (max-width: 900px) {
+    .card-detail-div .card-img {
+        width: 10rem;
+        height: 5rem;
+    }
+    .descriptions p {
+        font-size: 12px;
+        -webkit-line-clamp: 2;
+    }
+    .descriptions h6 {
+        font-size: 14px;
+        -webkit-line-clamp: 1;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .card-detail-div .card-img {
+        width: 8rem;
+        height: 5rem;
+    }
+    .descriptions p {
+        font-size: 12px;
+        -webkit-line-clamp: 2;
+    }
+    .descriptions h6 {
+        font-size: 14px;
+        -webkit-line-clamp: 1;
+    }
+}
+@media screen and (max-width: 340px) {
+    .card-detail-div .card-img {
+        width: 7rem;
+        height: 5rem;
+    }
+}
+

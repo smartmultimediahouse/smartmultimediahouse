@@ -1,0 +1,35 @@
+.remove-fav-text-description{
+    max-width: 40ch;
+    white-space: normal;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    color: white;
+    background-color: #4f310b;
+}
+.nav-pills .nav-link{
+    color: #4f310b;
+}
+.nav-item, .nav-item button{
+    color: #4f310b !important;
+}
+
+.nav-item button.dropdown-item {
+    padding-left: 18px;
+}
+
+.custom-submit-btn:focus {
+    background-color: #4f310b;
+    border-color: none;
+    box-shadow: none;
+}
+
+.custom-submit-btn:not(:disabled):not(.disabled):active:focus {
+    background-color: #4f310b;
+    border-color: none;
+    box-shadow: 0 0 0 0.2rem #4f310b;
+}

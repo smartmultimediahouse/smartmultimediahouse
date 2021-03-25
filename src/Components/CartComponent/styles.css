@@ -1,0 +1,135 @@
+.lhs-cart-main-div{
+    border: 1px solid lightgray;
+    height: 30rem;
+    width: 22rem;
+    background-color: #ffffff;
+    position: fixed;
+    right: 0px;
+    top: 10rem;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+}
+.lhs-cart-btn{
+    border: 1px solid lightgray;
+    height: 2.5rem;
+    width: 7rem;
+    background-color: #4f310b;
+    position: fixed;
+    right: -2.2rem;
+    top: 20rem;
+    z-index: 10;
+    align-items: center;
+    justify-self: center;
+    transform: rotate(-90deg);
+    border: 2px solid gray;
+}
+.lhs-cart-btn:focus{
+    outline: none;
+    box-shadow:none;
+}
+.lhs-cart-btn h5{
+    color: #ffffff;
+    margin: auto;
+}
+.lhs-cart-main-div .close{
+    position: absolute;
+    right: 0rem;
+    width: 1.5rem;
+}
+.lhs-cart-main-div .close:focus {
+    outline: none;
+    box-shadow: none;
+}
+.lhs-cart-main-div .my-bag{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+.lhs-cart-main-div .view-my-full-bag{
+    background-color: #4f310b;
+    border-radius: 0px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.lhs-cart-main-div .view-my-full-bag:focus{
+    outline: none;
+    box-shadow: none;
+}
+.lhs-cart-main-div .view-my-full-bag h6{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+}
+.lhs-cart-main-div .cart-simple-line{
+    border-bottom: 0.1px solid lightgrey;
+    width: 100%;
+}
+.lhs-cart-main-div .sub-total-view{
+    background-color: #B6F8CB;
+    height: 2.5rem;
+    width: 22rem;
+    position: absolute;
+    bottom: 0px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.lhs-cart-main-div .lhs-cart-list-body{
+    height: fit-content;
+    width: 22rem;
+    overflow: scroll;
+}
+.lhs-cart-product-img{
+    width: 5vw;
+    height: 100%;
+}
+.lhs-cart-list-card div{
+    display: flex;
+    flex-direction: column;
+    width: 16rem;
+}
+.lhs-cart-list-card p {
+    font-size: 10px;
+}
+.lhs-cart-list-card .title{
+    font-size: 12px;
+    font-weight: 500;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.remove-item-btn{
+    width: max-content;
+}
+.remove-item-btn p{
+    color: #4f310b;
+}
+.remove-item-btn:focus{
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+@media screen and (max-width: 900px) {
+    .lhs-cart-main-div{
+        width: 18rem;
+    }
+    .lhs-cart-main-div .sub-total-view{
+        width: 18rem;
+    }
+    .lhs-cart-main-div .lhs-cart-list-body{
+        width: 18rem;
+    }
+    .lhs-cart-list-card div{
+        width: 14rem;
+    }
+    .lhs-cart-product-img{
+        width: 4rem;
+        height: 100%;
+    }
+}

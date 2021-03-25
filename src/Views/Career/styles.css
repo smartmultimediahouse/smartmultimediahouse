@@ -1,0 +1,120 @@
+.list{
+    list-style-type: upper-roman;
+}
+
+.img-raised {
+    box-shadow: 0 5px 15px -8px rgba(0,0,0,.24), 0 8px 10px -5px rgba(0,0,0,.2);
+}
+.main-raised {
+    border-radius: 6px;
+}
+
+.main {
+    background: #F4F4F4;
+}
+
+.profile-content .profile {
+    text-align: center;
+}
+
+
+.profile-content .profile img {
+    max-width: 160px;
+    width: 100%;
+    margin: 0 auto;
+    -webkit-transform: translate3d(0,-50%,0);
+    -moz-transform: translate3d(0,-50%,0);
+    -o-transform: translate3d(0,-50%,0);
+    -ms-transform: translate3d(0,-50%,0);
+    transform: translate3d(0,-50%,0);
+}
+.img-fluid, .img-thumbnail {
+    max-width: 100%;
+    height: auto;
+}
+
+.title {
+    -webkit-transform: translate3d(0,-100%,0);
+    -moz-transform: translate3d(0,-100%,0);
+    -o-transform: translate3d(0,-100%,0);
+    -ms-transform: translate3d(0,-100%,0);
+    transform: translate3d(0,-100%,0);
+    color: #3C4858;
+    font-weight: 700;
+    font-family: "Roboto Slab","Times New Roman",serif;
+    text-align: center;
+}
+
+.profile-content .description {
+    -webkit-transform: translate3d(0,-55%,0);
+    -moz-transform: translate3d(0,-55%,0);
+    -o-transform: translate3d(0,-55%,0);
+    -ms-transform: translate3d(0,-55%,0);
+    transform: translate3d(0,-55%,0);
+    margin: 1.071rem auto 0;
+    max-width: 600px;
+    color: #999;
+    font-weight: 300;
+}
+
+.profile-button{
+    text-align: center;
+    background-color: #4f310b;
+    color: white;
+    padding: 5px 40px;
+    border: 0;
+}
+
+@media screen and (min-width: 1366px) {
+
+    .profile-content .description {
+        -webkit-transform: translate3d(0,-20%,0);
+        -moz-transform: translate3d(0,-20%,0);
+        -o-transform: translate3d(0,-20%,0);
+        -ms-transform: translate3d(0,-20%,0);
+        transform: translate3d(0,-20%,0);
+        margin: 1.071rem auto 0;
+        max-width: 600px;
+        color: #999;
+        font-weight: 300;
+    }
+} 
+
+@media screen and (max-width: 1024px) {
+
+    .title {
+        -webkit-transform: translate3d(0,-40%,0);
+        -moz-transform: translate3d(0,-40%,0);
+        -o-transform: translate3d(0,-40%,0);
+        -ms-transform: translate3d(0,-40%,0);
+        transform: translate3d(0,-40%,0);
+        color: #3C4858;
+        font-weight: 700;
+        font-family: "Roboto Slab","Times New Roman",serif;
+        text-align: center;
+    }
+
+    .profile-content .description {
+        -webkit-transform: translate3d(0,-10%,0);
+        -moz-transform: translate3d(0,-10%,0);
+        -o-transform: translate3d(0,-10%,0);
+        -ms-transform: translate3d(0,-10%,0);
+        transform: translate3d(0,-10%,0);
+        margin: 1.071rem auto 0;
+        max-width: 600px;
+        color: #999;
+        font-weight: 300;
+    }
+} 
+
+@media screen and (max-width: 700px) {
+#headerimage{
+height:100px !important;
+}
+.sub-app{
+    width: 100% !important;
+}
+} 
+.img-011{
+height:300px !important;
+}

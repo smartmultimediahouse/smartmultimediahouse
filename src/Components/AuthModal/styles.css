@@ -1,0 +1,80 @@
+.modal-body .close {
+    background-color: transparent;
+    position: absolute;
+    right: 1rem;
+    background-color: #4f310b;
+}
+
+.modal-body .close:focus {
+    background-color: transparent;
+    outline: none;
+
+    background-color: #4f310b;
+}
+
+.auth-modal-logo-div {
+    height: 15vh;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.auth-modal-logo {}
+
+.modal-body h1,
+h6 {
+    font-weight: 700;
+}
+
+.sign-in-btn {
+    background-color: #daca98;
+    width: 32%;
+    align-self: center;
+}
+
+.sign-in-btn h5 {
+    color: #ffffff;
+}
+
+.modal-body .sigin-row {
+    justify-content: center;
+}
+
+.forgot-password-row {
+    justify-content: flex-end;
+}
+
+.forgot-password-row .forgot-password-btn {
+    background-color: transparent;
+    border: none;
+}
+
+.forgot-password-row .forgot-password-btn {
+    background-color: transparent;
+    outline: none;
+}
+
+.sigin-instract-row {
+    justify-content: center;
+    align-items: center;
+}
+
+.sigin-instract-row .sign-up-btn {
+    background-color: transparent;
+    border: none;
+}
+
+.sigin-instract-row .sign-up-btn:focus {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.sigin-instract-row .sign-up-btn h6 {
+    color: #daca98;
+}
+
+@media screen and (max-width: 500px) {
+    .sign-in-btn {
+        width: 40%;
+    }
+}

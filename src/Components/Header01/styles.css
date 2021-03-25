@@ -1,0 +1,116 @@
+.header-main-01 {
+    height: 3.25rem;
+    width: 100vw;
+    flex-direction: row;
+}
+.header-inner-div-01 {
+    width: 77.3vw;
+    height: 3.25rem;
+    margin: auto;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    margin: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.store-icons-div{
+    padding: 0px;
+}
+.head-logo-01 {
+    height: 3.2rem;
+}
+.store-01 {
+    height: 3rem;
+    width: 8rem;
+    margin-left: 0.5rem;
+}
+.nav-button {
+    display: none;
+    border: none;
+    padding: 0px;
+    background-color: #ffffff;
+}
+.nav-button:focus {
+    outline: 0px;
+}
+.nav-icon {
+    height: 1.8rem;
+    width: 1.8rem;
+}
+
+.profile-icon-btn img{
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    border: 1px solid #d3d3d3;
+}
+
+@media screen and (max-width: 1040px) {
+    .header-main-01 {
+        height: 3rem;
+    }
+    .header-inner-div-01 {
+        height: 3rem;
+    }
+    .head-logo-01 {
+        height: 2rem;
+    }
+    .store-01 {
+        width: 5rem;
+    }
+}
+
+.login-mobile-btn {
+    display: none;
+}
+.profile-icon-btn{
+    display: none;
+}
+
+@media screen and (max-width: 640px) {
+    .header-main-01 {
+        height: 2.7rem;
+    }
+    .header-inner-div-01 {
+        height: 2.7rem;
+    }
+    .head-logo-01 {
+        height: 1.6rem;
+    }
+    .store-01 {
+        width: 4rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header-main-01 {
+        height: 2.4rem;
+    }
+    .header-inner-div-01 {
+        height: 2.4rem;
+        width: 98%;
+        padding-left: 1.3rem;
+    }
+    .head-logo-01 {
+        height: 1.4rem;
+    }
+    .store-icons-div{
+        display: none;
+    }
+    .store-01 {
+        width: 3rem;
+    }
+    .nav-button {
+        display: block;
+    }
+
+    .login-mobile-btn {
+        display: block;
+    }
+    .profile-icon-btn{
+        display: block;
+    }
+    
+}

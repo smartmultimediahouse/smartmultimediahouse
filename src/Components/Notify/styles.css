@@ -1,0 +1,32 @@
+.notify-modal-logo-div{
+    align-items: center;
+    justify-content: center;
+}
+.notify-modal-logo-div-01{
+    align-items: center;
+    justify-content: center;
+}
+.notify-modal-logo-div-01 h2{
+    color: #575757;
+    font-weight: 700;
+    margin-top: 0.5vw !important;
+}
+.notify-modal-logo-div-01 h6{
+    color: #797979;
+    margin-top: 1vw !important;
+}
+.notify-row{
+    align-items: center;
+    justify-content: center;
+}
+.notify-row .notify-btn{
+    background-color: #8cd4f5;
+    width: 5rem;
+    margin-top: 2vw;
+}
+.notify-row .notify-btn:focus{
+    outline: none;
+}
+.notify-row .notify-btn h5{
+    color: #ffffff;
+}

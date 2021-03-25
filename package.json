@@ -1,0 +1,66 @@
+{
+  "name": "discoverpakistan",
+  "homepage": "https://discoverpakistan.tv/",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "AsyncStorage": "^0.1.5",
+    "axios": "^0.20.0",
+    "bootstrap": "^4.5.3",
+    "file-base64": "^1.0.0",
+    "moment": "^2.29.1",
+    "query-string": "^6.13.7",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.4.0",
+    "react-bootstrap-typeahead": "^5.1.2",
+    "react-dom": "^16.13.1",
+    "react-dropzone": "^11.2.3",
+    "react-grid-system": "^7.0.3",
+    "react-helmet": "^6.1.0",
+    "react-hls-player": "^1.1.0",
+    "react-owl-carousel2": "^0.3.0",
+    "react-player": "^2.6.2",
+    "react-read-more-less": "^0.1.6",
+    "react-redux": "^7.2.1",
+    "react-retina-image": "^2.0.5",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.3",
+    "react-spinners-kit": "^1.9.1",
+    "react-web-vector-icons": "^1.0.2",
+    "redux": "^4.0.5",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0",
+    "videojs-max-quality-selector": "^0.9.1",
+    "videojs-resolution-switcher": "^0.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "video.js": "^7.10.2"
+  }
+}

@@ -1,0 +1,11 @@
+.list{
+    list-style-type: upper-roman;
+}
+@media screen and (max-width: 700px) {
+#headerimage{
+height:100px !important;
+}
+} 
+.img-011{
+height:300px !important;
+}

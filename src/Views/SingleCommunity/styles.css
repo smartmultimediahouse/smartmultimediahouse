@@ -1,0 +1,24 @@
+.show-img-01 {
+    width: 40px !important;
+    float: left;
+    border-radius: 50%;
+    height: 40px !important;
+}
+.show-img-text {
+    font-weight: bold;
+    text-align: left;
+    color: #ebe8e9;
+    font-size: 16px;
+}
+
+.input-01 {
+    border-left: 1px solid #ced4da !important;
+}
+
+.btnsubmitt {
+    background-color: #efefef !important;
+    height: 50px;
+    width: 100%;
+    border: none;
+    color: gray;
+}

@@ -1,0 +1,190 @@
+.youtube-player-class {
+    height: 21rem !important;
+}
+
+.watch-video-body{
+    padding: 0%;
+    margin: 0%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.card-btn{
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+    color: #333333;
+}
+.card-btn:focus{
+    border: none;
+    outline: none;
+    text-decoration: none;
+    color: #333333;
+}
+.watch-video-card-title-row {
+    align-items: center;
+    margin: auto;
+}
+.green-dot {
+    height: 1.8rem;
+    width: 0.7rem;
+    background-color: #4f310b;
+}
+.watch-video-h5-tag {
+    font-size: 22px;
+    font-weight: bold;
+    color: #4f310b;
+    margin-bottom: 0px;
+    margin-left: 0.5rem;
+}
+.watch-video-card-detail-div{
+    padding: 0px;
+    margin-top: 0.5rem;
+}
+.watch-video-card-detail-div .watch-video-card-img {
+    width: 14vw;
+    height: 8vw;
+}
+.watch-video-card-detail-div .descriptions {
+    flex: 1;
+    padding-left: 1rem;
+}
+.watch-video-card-detail-div .descriptions h6 {
+    font-size: 14px !important;
+}
+.watch-video-card-detail-div .descriptions p {
+    font-size: 10px !important;
+}
+.short-text{
+    font-size: 14px;
+}
+.video-first-row{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.video-release-date{
+    color: #d3d3d3;
+}
+/* .video-icons-row{
+
+} */
+.video-icons-row button{
+    border: none;
+    background-color: transparent;
+}
+.video-icons-row button:focus{
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+.comment-box{
+    outline: none;
+    width: 100%;
+}
+.comment-box:focus{
+    outline: none;
+    border:1px solid #ced4da;
+    box-shadow: none;
+}
+.comment-btn:focus{
+    outline: none;
+    border:1px solid #ced4da;
+    box-shadow: none;
+}
+/* .comment-card-row{
+    align-items: baseline;
+} */
+.comment-img{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+.comment-card-row-inner{
+    background-color: #ffffff;
+    box-shadow: 4px 4px 5px 1px lightgrey;
+    flex: 1;
+}
+.comment-text-div div .short-text{
+    font-size: 12px;
+    color: #999999;
+}
+.comment-ftr-btns button{
+    flex-direction: row;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 12px;
+    color: #999999;
+    align-items: center;
+}
+.comment-ftr-btns button:focus{
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+.comment-card-row-inner .comments-user-div{
+    align-items: center;
+}
+.comment-card-row-inner div p{
+    font-size: 12px;
+    color: #999999;
+}
+@media screen and (max-width: 985px) {
+    .green-dot {
+        height: 1.6rem;
+        width: 0.6rem;
+    }
+    .watch-video-h5-tag {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 905px) {
+    .green-dot {
+        height: 1.4rem;
+        width: 0.5rem;
+    }
+    .watch-video-h5-tag {
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 830px) {
+    .green-dot {
+        height: 1.4rem;
+        width: 0.5rem;
+    }
+    .watch-video-h5-tag {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .watch-video-card-detail-div .watch-video-card-img {
+        width: 11rem;
+        height: 6rem;
+    }
+    .green-dot {
+        height: 1.8rem;
+        width: 0.7rem;
+    }
+    .watch-video-h5-tag {
+        font-size: 22px;
+    }
+}
+/* @media screen and (max-width: 1340px) {
+    .youtube-player-div-main {
+        height: 22rem;
+    }
+}
+@media screen and (max-width: 1140px) {
+    .youtube-player-div-main {
+        height: 20rem;
+    }
+}
+@media screen and (max-width: 940px) {
+    .youtube-player-div-main {
+        height: 17rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    .youtube-player-div-main {
+        height: 15rem;
+    }
+} */

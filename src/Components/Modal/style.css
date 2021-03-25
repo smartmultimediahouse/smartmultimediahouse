@@ -1,0 +1,76 @@
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99999;
+    opacity:0;
+    /* background-color: gray; */
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+.modal-bg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    background-color: gray;
+    cursor: inherit;
+}
+.modal-body{
+    width: 19rem;
+    height: 26rem;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+}
+.close {
+    position: absolute;
+    right: 0px;
+    text-align: center;
+    top: 4rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+.close:hover {
+    background: transparent;
+}
+
+.barcode-a{
+    text-decoration: none;
+    position: relative;
+    top: 3rem;
+    left: 4rem;
+}
+.modal-note-title{
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.23;
+    color: #f15953;
+    margin-top: 5rem;
+}
+.modal-note-p{
+    width: 248px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.19;
+    color: #2e2e2e;
+    margin: auto;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+}
